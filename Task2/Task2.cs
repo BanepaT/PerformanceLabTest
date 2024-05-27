@@ -1,4 +1,4 @@
-﻿class Task2
+﻿class task2
 {
     public static int Main(string[] args)
     {
