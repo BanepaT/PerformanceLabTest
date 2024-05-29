@@ -1,4 +1,7 @@
-﻿class task4
+﻿using System;
+using System.IO;
+
+class task4
 {
     static int Main(string[] args)
     {
