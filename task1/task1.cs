@@ -11,7 +11,7 @@ class task1
         if (n <= 0 || m < 0 || args.Length != 2)
         {
             Console.WriteLine("Некорректные значения или кол-во переменных");
-            return 0;
+            return 1;
         }
 
         var result = string.Empty;
@@ -24,7 +24,7 @@ class task1
         }
         while (currentvalue != 1);
         
-        Console.WriteLine("Первые элементы полученных интервалов: " + result);
-        return 1;
+        Console.WriteLine(result);
+        return 0;
     }
 }
