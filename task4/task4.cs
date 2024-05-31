@@ -23,7 +23,7 @@ class task4
             steps += Math.Abs(median - i);
         }
 
-        Console.WriteLine("минимальное количество ходов, требуемых для приведения всех элементов к одному числу: " + '\n' + steps);
+        Console.WriteLine(steps);
         return 1;
     }
 }
